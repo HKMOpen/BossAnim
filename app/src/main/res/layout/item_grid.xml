@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/layout_logo"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="96dp"
+            android:id="@+id/iv"
+            android:layout_height="96dp"
+            android:src="@drawable/logo_zoom" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#CC999999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="仿Boss直聘" />
+    </FrameLayout>
+
+</RelativeLayout>
